@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bom e Barato</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="logo.jpg" alt="Logo da empresa">
+  <header>
+    <h1>PRIMEIRA COMPRA NA NOSSA LOJA TEM DESCONTO</h1>
+    <p>Busque seu produto <input type="text" placeholder="Digite seu produto"></p>
+  </header>
+  <div class="grid-container">
+    <a href="#">Não possui uma conta? Cadastrar-se</a>
+    <button>Faça seu login</button>
+    <button>Produtos pendentes</button>
+    <button>Produtos entregues</button>
+    <button>Favoritos</button>
+    <button>Carrinho</button>
+  </div>
+  <script src="script.js"></script>
+  <nav>
+    <ul>
+      <li><a href="#" onclick="mostrarLista('listaLancamentos')">Lançamentos</a></li>
+      <li><a href="#" onclick="mostrarLista('listaPresentes')">Presentes</a></li>
+      <li><a href="#" onclick="mostrarLista('listaMaquiagem')">Maquiagem</a></li>
+      <li><a href="#" onclick="mostrarLista('listaRosto')">Rosto</a></li>
+      <li><a href="#" onclick="mostrarLista('listaPerfumaria')">Perfumaria</a></li>
+      <li><a href="#" onclick="mostrarLista('listaCabelos')">Cabelos</a></li>
+    </ul>
+  </nav>
+
+  <ol id="listaLancamentos" style="display: none">
+    <p>300Km/H Nitro Deo Colônia <a href="link">300Km/H Nitro Deo Colônia</a></p>
+    <p>R$ 12,00</p>
+    <button>COMPRAR</button>
+  </ol>
+
+  <ol id="listaRosto" style="display: none">
+    <p> Sabonete De Limpeza Facial <a href="link">sabonete de limpeza</a></p>
+    <p>R$ 09,99</p>
+    <button>COMPRAR</button>
+  </ol>
+
+  <ol id="listaCabelos" style="display: none">
+    <p>Avengers Gel para Cabelos<a href="link">Avengers Gel para Cabelos</a></p>
+    <p>R$ 11,00</p>
+    <button>COMPRAR</button>
+  </ol>
+
+  <ol id="listaPresentes" style="display: none">
+    <p>Kit Hidratação Óleo<a href="link">kit Hidratação óleo</a></p>
+    <p>R$ 71,97</p>
+    <button>COMPRAR</button>
+  </ol>
+
+  <ol id="listaPerfumaria" style="display: none">
+    <p>Aerosol Masculino <a href="link">Aerosol Masculino</a></p>
+    <p>R$ 37,00</p>
+    <button>COMPRAR</button>
+  </ol>
+
+  <ol id="listamaquiagem" style="display: none">
+    <p>Apontador Duplo para Lápis de Olho e Boca <a href="link">Apontador Duplo para Lápis de Olho e Boca</a></p>
+    <p>R$ 12,99</p>
+    <button>COMPRAR</button>
+  </ol>
+
+  <script src="script.js"></script>
+</body>
+</html>
